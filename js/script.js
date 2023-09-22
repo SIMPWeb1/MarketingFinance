@@ -22,7 +22,7 @@ $(window).on("load", function () {
         $('#pagepiling').pagepiling({
             direction: 'vertical',
             sectionsColor: ['#171717', '#171717', '#171717', '#171717', '#171717', '#171717'],
-            anchors: ['home', 'tokenomics', 'contract'],
+            anchors: ['home', 'tokenomics', 'contract',"createADS"],
             scrollingSpeed: 500,
             easing: 'linear',
             loopBottom: false,
@@ -31,7 +31,7 @@ $(window).on("load", function () {
             navigation: {
                 'bulletsColor': '#535353',
                 'position': 'right',
-                'tooltips': ['Home', 'Tokenomics', 'Create ADS'],
+                'tooltips': ['Home', 'Tokenomics','Smart Contract' ,'Create ADS'],
             },
             //events
             onLeave: function (index, nextIndex, direction) {
